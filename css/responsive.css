@@ -1,0 +1,150 @@
+/* Media query for screens less than 1300px */
+@media (max-width: 1300px) {
+    .left {
+        position: absolute;
+        left: -100%;
+        z-index: 2;
+        transition: all 0.6s ease;
+        width: 70vw;
+    }
+    .playBar{
+        width: calc(100vw - 60px);
+    }
+    .seekBar{
+        width: calc(100vw - 70px);
+    }
+    .logo img:nth-child(2) {
+        display: block;
+    }
+
+    .right {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .playBar {
+        width: 95vw;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav svg {
+        display: none;
+    }
+}
+
+/* Media query for screens less than 600px */
+@media (max-width: 599px) {
+    .left{
+        padding: 0;
+    }
+    .playBar {
+        font-size: 11px;
+    }
+
+    .songInfo {
+        animation: none;
+    }
+
+    .songButtons {
+        gap: 15px;
+    }
+
+    .songButtons img {
+        width: 22px;
+    }
+    .right{
+        margin:0;
+    }
+    .header{
+        border-top-left-radius: 0;
+    }
+    .buttons button:first-child,
+    .buttons button:nth-child(2) {
+        font-size: 9px;
+        padding: 5px 10px;
+    }
+
+    .header > * {
+        padding: 7px;
+    }
+    .card:hover .play{
+        display: none;
+    }
+    .hamburger {
+        width: 18px;
+    }
+    .playBar{
+        width: calc(100vw - 60px);
+    }
+    .seekBar{
+        width: calc(100vw - 70px);
+        right: 14px;
+    }
+    .cardContainer{
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        width: 125px;
+    }
+    .home ul li a{
+        font-size: 12px;
+    }
+    .card img{
+        height: 140px;
+        width: 125px;
+
+    }
+    .card h2{
+        font-size: 16px;
+    }
+    .card p{
+        font-size: 10px;
+
+    }
+    .spotifyPlaylists h1{
+        font-size: 20px;
+        margin: 4px;
+    }
+    .logo img{
+        width: 40px;
+    }
+    .home span{
+        font-size: 16px;
+        left: 67px;
+        top: 31px;
+    }
+    .logo img:nth-child(2){
+        width: 20px;
+    }
+    .home ul li{
+        width: 12px;
+        font-size: 12px;
+    }
+    .songsList ul li{
+        font-size: 10px;
+        padding: 4px 8px;
+    }
+    .plusLogo{
+        width: auto;
+    }
+    .plusLogo img{
+        width: 14px;
+    }
+    .songsList ul li img{
+        width: 16px;
+    }
+    .heading{
+        font-size: 15px;
+    }
+    .heading img{
+        width: 20px;
+    }
+    .volume{
+        display: none;
+    }
+}

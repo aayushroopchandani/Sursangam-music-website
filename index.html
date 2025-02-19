@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sursangam - Music for Every Mood, Anytime, Anywhere.</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utlites.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="shortcut icon" href="img/blackLogo.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container flex">
+        <div class="left bg-black">
+            <div class="home bg-grey rounded m-1 p-1">
+                <span>Sursangam</span>
+                <div class="logo flex items-center">
+                    <img width="60" src="img/ownlogo.svg" alt="logo" >
+                    <img class="pointer" src="img/cross.svg" alt="">
+                </div>
+                <ul>
+                    <!-- <li class="flex"><img src="img/home.svg" alt="home" class="invert">Home</li> -->
+                    <li class="flex"><img src="img/search.svg" alt="search" class="invert"><a href="about.html">About the developer</a></li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="big-heading flex items-center">
+                    <div class="heading flex items-center p-1 m-1 pointer">
+                        <img class="grey" src="img/playlist.svg" alt="playlist">
+                        <p>Your playlist</p>
+                    </div>
+                    <div class="plusLogo pointer flex items-center justify-center">
+                        <img class="grey" src="img/plus.svg" alt="plus">
+                    </div>
+                </div>
+                <div class="songsList">
+                    <ul>
+
+                    </ul>
+                </div>
+
+
+                <div class="footer flex p-1">
+                    <div><a href="#"><span>Legal</span></a></div>
+                    <div><a href="#"><span>Privacy Center</span></a></div>
+                    <div><a href="#"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="#"><span>Cookies</span></a></div>
+                    <div><a href="#"><span>About Ads</span></a></div>
+                    <div><a href="#"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="right bg-grey rounded">
+            <div class="header flex items-center">
+                <div class="nav">
+                    <img class="hamburger pointer" src="img/hamburger.svg" alt="">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M15 6L9.70711 11.2929C9.37377 11.6262 9.20711 11.7929 9.20711 12C9.20711 12.2071 9.37377 12.3738 9.70711 12.7071L15 18"
+                            stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6"
+                            stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="buttons">
+                    <button class="pointer">Sign up</button>
+                    <button class="pointer">Log in</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylists">
+                <h1>Your favourite Artists</h1>
+                    <div class="cardContainer flex items-center">
+                       
+
+
+                    </div>
+                <div class="playBar flex items-center">
+                    <div class="seekBar pointer">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="songInfo">
+
+                    </div>
+                    <div class="songButtons flex items-center justify-center">
+                        <img class="pointer" src="img/prevsong.svg" alt="">
+                        <img class="pointer" src="img/play.svg" alt="">
+                        <img class="pointer" src="img/nextsong.svg" alt="">
+                    </div>
+                    <div class="songTime flex items-center">
+                        <p></p>
+                        <div class="volume flex items-center justify-center pointer">
+                            <div class="volSeekbarContainer items-center justify-center">
+                                <input type="range" name="volume" id="volumeIp" value="100" class="pointer"
+                                    style="accent-color: white">
+                            </div>
+                            <img src="img/volume.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
