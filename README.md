@@ -32,10 +32,13 @@
 ---
 
 <h2 style="animation: fadeInUp 2.5s;">📸 Screenshots</h2>
-<p style="color: gray;">Add your own screenshots here:</p>
-<img src="screenshot1.png" width="300px" style="margin: 10px;">
-<img src="screenshot2.png" width="300px" style="margin: 10px;">
-<img src="screenshot3.png" width="300px" style="margin: 10px;">
+<img src="https://ik.imagekit.io/uhwnemhvs/Screenshot%202025-05-27%20at%201.53.28%E2%80%AFPM.png?updatedAt=1748334491548" width="600px" style="margin: 10px;">
+<br>
+<img src="https://ik.imagekit.io/uhwnemhvs/Screenshot%202025-05-27%20at%201.54.08%E2%80%AFPM.png?updatedAt=1748334592698" width="300px" style="margin: 10px;">
+<br>
+
+<img src="https://ik.imagekit.io/uhwnemhvs/Screenshot%202025-05-27%20at%202.01.28%E2%80%AFPM.png?updatedAt=1748334728439" width="300px" style="margin: 10px;">
+<br>
 
 ---
 
